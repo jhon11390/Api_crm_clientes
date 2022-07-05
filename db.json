@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nombre": "Leidi Johanna truji",
+      "empresa": "alpina",
+      "email": "meljhon2@gmail.com",
+      "telefono": "3138197424",
+      "notas": "prueba de nota",
+      "id": 1
+    },
+    {
+      "nombre": "Leidi Johanna",
+      "empresa": "alpinasfff",
+      "email": "meljhon2@gmail.com",
+      "telefono": "3138197424",
+      "notas": "prueba de nota",
+      "id": 2
+    },
+    {
+      "nombre": "Leidi Johanna bravo",
+      "empresa": "alpina",
+      "email": "meljhon2@gmail.com",
+      "telefono": "3138197424",
+      "notas": "prueba de nota",
+      "id": 3
+    }
+  ]
+}
