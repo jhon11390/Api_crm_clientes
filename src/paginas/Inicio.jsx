@@ -2,13 +2,13 @@ import React, {useState, useEffect} from 'react'
 import Cliente from '../components/Cliente'
 
 const Inicio = () => {
-
+  console.log(import.meta.env.VITE_SOME_KEY);
   const [clientes, setClientes] = useState([])
 
   useEffect(() => {
     const obtenerClientesAPI = async () => {
       try {
-        const url = 'http://localhost:4000/clientes'
+        const url = import.meta.env.VITE_SOME_KEY
         const respuesta = await fetch(url)
         const resultado = await respuesta.json()
         setClientes(resultado)
@@ -24,7 +24,7 @@ const Inicio = () => {
     const confirmar = confirm('Desea eliminar este cliente')
     if(confirmar){
       try {
-        const url = `http://localhost:4000/clientes/${id}`
+        const url = `${import.meta.env.VITE_SOME_KEY}/${id}`
         const respuesta = await fetch (url, {
           method: 'DELETE'
         })

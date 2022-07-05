@@ -1,26 +1,26 @@
 {
   "clientes": [
     {
-      "nombre": "Leidi Johanna truji",
+      "nombre": "Carlos perez",
       "empresa": "alpina",
-      "email": "meljhon2@gmail.com",
-      "telefono": "3138197424",
+      "email": "carlos@gmail.com",
+      "telefono": "1234567890",
       "notas": "prueba de nota",
       "id": 1
     },
     {
-      "nombre": "Leidi Johanna",
+      "nombre": "fredy marin",
       "empresa": "alpinasfff",
-      "email": "meljhon2@gmail.com",
-      "telefono": "3138197424",
+      "email": "marin@gmail.com",
+      "telefono": "1234567890",
       "notas": "prueba de nota",
       "id": 2
     },
     {
-      "nombre": "Leidi Johanna bravo",
+      "nombre": "gina perez",
       "empresa": "alpina",
-      "email": "meljhon2@gmail.com",
-      "telefono": "3138197424",
+      "email": "gina@gmail.com",
+      "telefono": "1234567890",
       "notas": "prueba de nota",
       "id": 3
     }
